@@ -119,3 +119,4 @@ C:\Users\User\Desktop\.NET\Practical Project\FindMeARoomate\obj\Debug\net8.0\ref
 C:\Users\User\Desktop\.NET\Practical Project\FindMeARoomate\obj\Debug\net8.0\FindMeARoomate.pdb
 C:\Users\User\Desktop\.NET\Practical Project\FindMeARoomate\obj\Debug\net8.0\FindMeARoomate.genruntimeconfig.cache
 C:\Users\User\Desktop\.NET\Practical Project\FindMeARoomate\obj\Debug\net8.0\ref\FindMeARoomate.dll
+C:\Users\User\Desktop\.NET\Practical Project\FindMeARoomate\obj\Debug\net8.0\FindMeARoomate.sourcelink.json

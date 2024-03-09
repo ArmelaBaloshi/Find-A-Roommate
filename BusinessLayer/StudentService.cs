@@ -1,27 +1,21 @@
-﻿using FindMeARoomate.DataLayer.DatabaseContext;
-using FindMeARoomate.DataLayer.Entities;
+﻿using FindMeARoomate.DataLayer.Entities;
 using FindMeARoomate.DataLayer.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace FindMeARoomate.DataLayer
+namespace FindMeARoomate.BusinessLayer
 {
     public class StudentService
     {
         #region Business Layer
         //Student Business Logic
         //Get All students
-     public   List<Student> GetStudents()
+        public List<Student> GetStudents()
         {
             var studentRepo = new StudentRepository();
             var students = studentRepo.GetAllStudent();
             return students;
         }
         //Register Student
-      public  void RegisterStudent()
+        public void RegisterStudent()
         {
             Console.WriteLine("Register");
             var student = new Student();

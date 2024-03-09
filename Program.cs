@@ -1,9 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using FindMeARoomate.DataLayer;
+using FindMeARoomate.BusinessLayer;
 using FindMeARoomate.DataLayer.DatabaseContext;
 using FindMeARoomate.DataLayer.Entities;
-using FindMeARoomate.DataLayer.Repositories;
-Console.WriteLine("Welcome to Find Roomate Application!");
+Console.WriteLine("Welcome to Find Roommate Application!");
 Console.WriteLine("--------------------------------------------------");
 Console.WriteLine("Menu");
 Console.WriteLine("--------------------------------------------------");
@@ -15,7 +14,8 @@ int choice = int.Parse(Console.ReadLine());
 switch (choice)
 {
     case 1:
-        {//Register
+        {
+            //Register
             StudentService studentService = new StudentService();
             studentService.RegisterStudent();
             break;
@@ -23,6 +23,8 @@ switch (choice)
 
         case 2: 
         {
+            //Get all students
+
             var studentService = new StudentService();
             var students = new List<Student>();
          

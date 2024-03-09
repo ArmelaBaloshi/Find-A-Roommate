@@ -13,9 +13,11 @@ namespace FindMeARoomate.DataLayer.Entities
 
         [Key]
         public int ID { get; set; }
+
         [ForeignKey("Student")]
         public int StudentID { get; set; }
         public Student Student { get; set; } //here name of object match with foreign key annotation name
+       
         [ForeignKey("Dormitory")]
         public int DormitoryID { get; set; }
         public Dormitory Dormitory { get; set; }
